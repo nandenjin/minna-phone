@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MINNA-PHONE スマートフォン IP01のご紹介</title>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="スマートフォン　MINNA-PHONEのご紹介">
+    <meta name="twitter:description" content="自称技術屋兼芸術屋のいなだ( @nandenjin )がデザインしたスマートフォンがついに製品化。みんなにフィットするシンプル設計。特設サイトでいますぐGETしよう">
+    <meta name="twitter:image" content="https://nandenjin.github.io/minna-phone/card.jpg">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+  </head>
+  <body class="lie-on">
+
+    <header class="header">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </header>
+
+    <section class="section section--home section--dark">
+      <div class="cover"></div>
+      <div class="shadow"></div>
+      <div class="headline fool">
+        <h1>M<span class="inna">INNA</span>-PHONE</h1>
+        <h2>スマートフォン IP01のご紹介</h2>
+      </div>
+      <div class="headline aprilfool">
+        <h1>APRIL FOOL</h1>
+        <h2>お付き合いいただきありがとうございました</h2>
+      </div>
+    </section>
+
+    <section class="section section--show section--light">
+      <img src="show.png" alt="スマートフォンのイメージ画像">
+      <h1>みんなのためのスマートフォン</h1>
+      <p>あなたらしくカスタマイズできるシンプルなスマートフォン、<b>M<span class="inna">INNA</span>-PHONE</b>が登場しました。掴みやすいデザインのボディ、ハイクオリティな映像と音声、ハイスペックなカメラ、そのすべてを入手できます。</p>
+      <div class="section__spacer"></div>
+    </section>
+
+    <section class="section section--customize section--glay">
+      <div class="section--customize__animation">
+        <div class="animation__screen-container">
+          <img src="screenshot.0.jpg" class="animation__screen animation__screen--0">
+          <img src="screenshot.1.jpg" class="animation__screen animation__screen--1">
+          <img src="screenshot.2.jpg" class="animation__screen animation__screen--2">
+          <div class="animation__screen animation__screen--flash"></div>
+          <img src="frame.black.png" class="animation__frame">
+        </div>
+      </div>
+      <div class="animation__spacer"></div>
+      <h1>誰にでもフィット</h1>
+      <p>シンプルであるがゆえのメリット。すべてを自由にカスタマイズして利用できます。ゲーム・事務作業・開発など、用途を選びません。電源OFFで文鎮やまな板として利用できる2WAY機能も。</p>
+      <div class="section__spacer"></div>
+    </section>
+
+    <section class="section section--photo">
+      <div class="section--photo__animation">
+        <div class="animation__screen-container">
+          <img src="photo.jpg" class="animation__screen">
+          <div class="animation__screen animation__screen--flash"></div>
+          <img src="frame.black.png" class="animation__frame">
+        </div>
+      </div>
+      <div class="animation__spacer"></div>
+      <h1>思い出はそのまま残そう</h1>
+      <p>13MPの高画素カメラを搭載し、目の前の光景をそのまま切り取ります。撮影した写真は綺麗に編集し、簡単に友達と共有できます。黒歴史も自動でバックアップします。</p>
+      <div class="section__spacer"></div>
+    </section>
+
+    <section class="section section--color section--glay">
+      <h1>選べる2カラー</h1>
+      <p>モノトーンのボディに、お好みでラッピングやペイントが可能です。黒いボディを白く塗る楽しみも残しました。</p>
+      <img src="colors.png" alt="パールホワイト・アッシュブラックのボディ">
+    </section>
+
+    <section class="section section--footer section--dark">
+      <div class="section--footer__cover"></div>
+      <h1 class="centered">M<span class="inna">INNA</span>-PHONE</h1>
+    </section>
+
+    <section class="section section--buy section--dark">
+      <div class="section__spacer"></div>
+      <span class="buy-button">今すぐ購入</span>
+      <div class="section__spacer"></div>
+      <div class="notice-list">
+        <div>○　この製品を使用する際には、電波法で定められた基準を満たした状態で使用する必要があります。</div>
+        <div>○　この製品はイノシシとパイナップルならちくわが好きな人を対象としています。</div>
+        <div>○ 本体および付属品には細かい部品があるため、乳幼児に与えると危険です。</div>
+        <div>○　Google ChromeロゴはGoogleの登録商標です。</div>
+        <div>○　うどんがおいしいことは世界不変の真理です。</div>
+        <div>○　この製品の発売日は4月1日です。</div>
+      </div> 
+    </section>
+
+    <footer class="footer">
+      <a href="https://github.com/nandenjin/minna-phone">
+         <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </a>
+    </footer>
+
+    <script>
+      
+      function updateLayout(){
+
+        var width  = window.innerWidth;
+            height = window.innerHeight;
+
+        var dom;
+
+        dom = document.querySelector( ".section--customize__animation" );
+        dom.style.transform = `scale(${width/1920})`;
+
+        dom = document.querySelector( ".section--photo__animation" );
+        dom.style.transform = `scale(${width/1920})`;
+
+      }
+
+      updateLayout();
+
+      window.addEventListener( "resize", updateLayout );
+
+
+
+      document.querySelector( ".buy-button" ).addEventListener( "click", function(){
+        document.body.classList.remove("lie-on");
+        document.body.classList.add("lie-off");
+        intv = setInterval( function(){
+          var s = ( window.pageYOffset );
+          window.scrollBy( 0, -5 );
+          if( s < 5 ) clearInterval( intv );
+        }, 100 );
+      } );
+
+    </script>
+
+  </body>
+</html>

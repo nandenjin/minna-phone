@@ -129,11 +129,6 @@
       document.querySelector( ".buy-button" ).addEventListener( "click", function(){
         document.body.classList.remove("lie-on");
         document.body.classList.add("lie-off");
-        intv = setInterval( function(){
-          var s = ( window.pageYOffset );
-          window.scrollBy( 0, -5 );
-          if( s < 5 ) clearInterval( intv );
-        }, 100 );
       } );
 
     </script>

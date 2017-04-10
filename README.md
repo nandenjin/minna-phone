@@ -1,7 +1,7 @@
 # "INA-PHONE" - Introducing smartphone IP01
 
 ## Aprilfool!
-A project for aprilfool 2017. [View the site](https://nandenjin.github.io/ina-phone)
+A project for aprilfool 2017. [View the site](https://nandenjin.github.io/minna-phone)
 
 
 ## Sourcetree
